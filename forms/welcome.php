@@ -3,6 +3,6 @@
 echo "<h1> de gevulde gegevens zijn:</h1>";
 echo "<br/>";
 
-echo "Naam: " .  $_GET["name"];
+echo "Naam: " .  $_POST["name"];
 echo "<br/>";
-echo "Email: " . $_GET["email"];
+echo "Email: " . $_POST["email"];
