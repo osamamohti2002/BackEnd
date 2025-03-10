@@ -1,12 +1,9 @@
 <?php
 
-function tafel($num){
-    for ($i = 1; $i <= 10; $i++){
-        echo  $i * $num;
-        echo "<br>";
-    }
+$numbers = [3,5,8,12];
 
+foreach($numbers as $number){
+    echo $number . "<br>";
 }
 
-tafel(43);
 ?>
