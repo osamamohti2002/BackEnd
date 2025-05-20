@@ -1,38 +1,34 @@
 <?php
-// Initialiseer variabelen
-$naam = "";
-$email = "";
-$naamErorr = "";
-$emailErorr = "";
-$formulierIngevuld = false;
+// $naam = "";
+// $email = "";
+// $naamErorr = "";
+// $emailErorr = "";
+// $formulierIngevuld = false;
 
-// Als formulier is verstuurd
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Controleer naam
-    if (empty($_POST["naam"])) {
-        $naamErorr = "Dit veld is verplicht.";
-    } else {
-        $naam = htmlspecialchars($_POST["naam"], ENT_QUOTES, 'UTF-8');
-    }
+//     if (empty($_POST["naam"])) {
+//         $naamErorr = "Dit veld is verplicht.";
+//     } else {
+//         $naam = htmlspecialchars($_POST["naam"], ENT_QUOTES, 'UTF-8');
+//     }
 
-    // Controleer e-mail
-    if (empty($_POST["email"])) {
-        $emailErorr = "Dit veld is verplicht.";
-    } else {
-        $email = htmlspecialchars($_POST["email"], ENT_QUOTES, 'UTF-8');
+//     if (empty($_POST["email"])) {
+//         $emailErorr = "Dit veld is verplicht.";
+//     } else {
+//         $email = htmlspecialchars($_POST["email"], ENT_QUOTES, 'UTF-8');
 
-        // Controleer of het e-mailadres geldig is
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $emailErorr = "Ongeldig e-mailadres.";
-        }
-    }
+//         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+//             $emailErorr = "Ongeldig e-mailadres.";
+//         }
+//     }
 
-    // Als er geen fouten zijn
-    if (empty($naamErorr) && empty($emailErorr)) {
-        $formulierIngevuld = true;
-    }
-}
+//     if (empty($naamErorr) && empty($emailErorr)) {
+//         $formulierIngevuld = true;
+//     }
+// }
+
+
 ?>
 
 <!DOCTYPE html>

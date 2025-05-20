@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(30, 37, 24);
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+
+nav{
+    background-color: rgb(110, 16, 16);
+}
+
+ul{
+    display: flex;
+    justify-content:start;
+    list-style-type: none ;
+    
+}
+
+li{
+    margin: 15px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: large;
+    transition: color 0.3s;
+}
+
+a:hover{
+    background-color: #582929;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+/* span{ 
+    color: green !important;
+    font-size: 0.9em; 
+} */
+
