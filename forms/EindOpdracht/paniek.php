@@ -44,7 +44,7 @@ extract($data);
                 <li class="link"><a href="onkeunde1.php">Onkeunde</a></li>
             </ul>
         </nav>
-
+        <h3>Er heerst Paniek</h3>
         <p>Er heerst paniek in het koninkrijk <?= $land ?>, Koning <?= $docent ?> is ten einde en als koning <?= $docent ?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?= $naam ?>.</p>
         <p><?= $naam ?>! Het us een ramp! Het is een schandel </p>
         <p>Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand</p>

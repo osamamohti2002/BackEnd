@@ -4,7 +4,14 @@ body{
 
 h1{
     color: white;
+    
 }
+.title{
+    margin-left: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+}
+
 
 .container{
     width: 70%;
@@ -38,15 +45,33 @@ a:hover{
     background-color: #582929;
 
 }
-
 form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
+    padding: 10px;
 }
 
-/* span{ 
-    color: green !important;
-    font-size: 0.9em; 
-} */
+.form-row {
+  display: flex;             /* alleen op 1 rij per label/input */
+  align-items: center;
+  margin-bottom: 15px;
+}
 
+.form-row label {
+  width: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+span{ 
+    color: red !important;
+    font-size: 0.9em; 
+    margin-left: 10px;
+}
+
+.btn{
+    margin-left: 335px;
+    width: 10%;
+}

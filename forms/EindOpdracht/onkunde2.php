@@ -44,7 +44,7 @@ extract($data);
                 <li class="link"><a href="onkeunde1.php">Onkeunde</a></li>
             </ul>
         </nav>
-
+        <h3>Onkunde</h3>
         <p>Er zijn veel mensen die niet kunnen <?= $wens ?>. Neem nou <?= $favoPersoon ?>. Zelfs met de hulp van een <?= $vakantie ?> of zelfs <?= $favoGetal ?> kan <?= $favoPersoon ?> niet <?= $wens ?>. Dat heeft niet te maken met een gebrek aan <?= $besteEigenschap ?>, maar met een te veel <?= $slechteEigenschap ?> leidt tot <?= $ergste ?> en dat is niet goed als je wilt <?= $wens ?>. Helaas voor <?= $favoPersoon ?></p>
 
         <footer>
