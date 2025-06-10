@@ -5,6 +5,7 @@
 <div class="container">
     <h1 class="title">PHP (Hypertext Preprocessor)</h1>
     <div class="blok">
+
     <img src="images/php.jpg" alt="php" class="img">
     <p class="description">
         PHP is een populaire open-source scripttaal die speciaal is ontworpen voor webontwikkeling. PHP draait op de server en genereert dynamische HTML-pagina's die naar de browser van de gebruiker worden gestuurd. Hierdoor kunnen websites interactief worden gemaakt, zoals bij inlogsystemen, contactformulieren, blogs of webshops.

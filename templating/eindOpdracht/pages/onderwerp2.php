@@ -16,6 +16,6 @@
         Een groot voordeel van MySQL is dat het betrouwbaar, snel en schaalbaar is. Het is beschikbaar op verschillende besturingssystemen, zoals Windows, Linux en macOS. Daarnaast wordt het ondersteund door veel hostingbedrijven en cloudplatforms.
 
         MySQL is gratis te gebruiken, maar er is ook een commerciële versie met extra functionaliteit beschikbaar via Oracle, het bedrijf dat MySQL onderhoudt. Dankzij de brede community is er veel documentatie en ondersteuning beschikbaar.
-    </p>
+        </p>
     </div>
 </div>

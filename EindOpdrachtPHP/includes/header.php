@@ -6,7 +6,7 @@ om te bepalen welke inhoud er ingeladen moet worden in je html
 
 <header>
     <nav class="nav-bar">
-        <a href="index.php?page=onderwerp1">Home</a>
+        <a href="index.php?page=pdo">Home</a>
         <a href="index.php?page=onderwerp1">Onderwerp 1</a>
         <a href="index.php?page=onderwerp2">Onderwerp 2</a>
         <a href="index.php?page=onderwerp3">Onderwerp 3</a>
